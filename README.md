@@ -1,9 +1,7 @@
 # project-guide
-Unit 8: README 
+README 
 ===
 
-
-# TUNIN
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -28,8 +26,12 @@ This app creates a hair sylist profile, allows users to browse and search for th
   
   Stylist 
 * Stylist Create Account- { First and Last name, username, password, Shop name, Bio, Location, types of styles they do- for each style minimum ten photos and videos, contact info(phone number, email, EIN, billing address), licenses}
+* Stylist logs into account
 * Stylist provides booking information/ availability
 * Stylist can give promotion preference to appear on explore page
+* Stylist can post and view photos of their work on profile
+* Stylist recieves notifications when they are followed or booked
+* Stylist can see list of followers
 
   User
 * User creates account { First and Last name, username, password, selection of preferred styles, location, contact }
@@ -40,28 +42,28 @@ This app creates a hair sylist profile, allows users to browse and search for th
 * When user selects a stylist username they get redirected to stylist profile
 * With clicking a photo a stylist posts of their their username below image will link to their page
 * Every photo of a style/ hashtag will link to stylists who have the style name in their bio and can filter based on location, photos, stylists and reviews(Like Instgram)
-* Profile page for each user- user can view saved stylists and styles
+* Profile page for each user- user can view saved stylists and styles, and unsave/unfollow
 * Settings (Accesibility, Notification, General, etc.) user can access in right hand corner of profile 
-* Reviews- can access phone camera to take a photo of hair and leave a written and rated review on stylist page
+* Reviews- User can access phone camera to take a photo of hair and leave a written and rated review on stylist page
+
 
 **Optional Nice-to-have Stories**
 * In app Booking 
 * CHAT with stylist
-
+* Stylist user profile ( stlyist account acts as user account as well, stylist can follow other stylists, explore, and like other styles
+* Photo tags with style price, additional stylist notes, and more from stylist attached to posted photo appearing on feed/ explore
+* Click on general photo to view more detailed version of post 
 ### 2. Screen Archetypes
 
-* Login 
-* Register - User signs up or logs into their account
+* Login - user can login
+* Register - User signs up with new account or logs into their account
 * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to refresh feed.
 * Feed - compiled photos of suggested styles and stylists based on previously favorited styles, followed stylists and hashtags
-* Explore - Search bar at the top, can filter search results by Photo, Stylist, Location, Cost, etc. Blow search bar you can see explore page with photos of random posted/ promoted styles
+* Explore - Search bar at the top, can filter search results by Photo, Stylist, Location, Cost, etc. Below the search bar you can see explore page with photos of randomly posted/ promoted styles and you can like and view styles there
 * Stylist Page- When a user clicks on a stylist username, they can view stylist profile, the styles they do, can write or view reviews, and can see style costs and book.
 * User Profile- When a user selects their profile tab they can see all of their favorited styles, and the stylists and hashtags they follow. They can unfavorite or unfollow here as well.
-* Add Style Screen  (Stylist)
-   * Stylist can add a style 
-
-* Settings Screen
-   * Lets people change language, and app notification settings.
+* "Add Style" Screen  (Stylist)- Stylist can add a style 
+* Settings Screen- Lets people change language, and app notification settings.
 
 ### 3. Navigation
 
@@ -71,21 +73,18 @@ This app creates a hair sylist profile, allows users to browse and search for th
 * Explore
 * Profile
 
-Optional:
-* Music/Encounter Queue
-* Discover (Top Choices)
-
 **Flow Navigation** (Screen to Screen)
-* Forced Log-in -> Account creation if no log in is available
-* Music Selection (Or Queue if Optional) -> Jumps to Chat
-* Profile -> Text field to be modified. 
-* Settings -> Toggle settings
+Login Screen
+=> Feed
+Registration Screen
+=> Feed
+Feed
+=> Stylist profile
+=> Detailed view of stylist post
+Explore
+=> Stylist profile
+=> Detailed view of stylist post
+* Profile
+=> Stylist profile
+=> Detailed view of stylist post
 
-## Wireframes
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
-
-### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
-
-### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/AiKfE5g.gif" width=200>
