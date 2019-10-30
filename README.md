@@ -90,6 +90,6 @@ Explore
 => Detailed view of stylist post
 
 ## Wireframes
-<img src="https://imgur.com/qA4z8Mg" width=800><br>
-<img src="https://imgur.com/VEfv1nG" width=800><br>
-<img src="https://imgur.com/YCyW3cQ" width=800><br>
+<img src="https://imgur.com/qA4z8Mg.jpg" width=800><br>
+<img src="https://imgur.com/VEfv1nG.jpg" width=800><br>
+<img src="https://imgur.com/YCyW3cQ.jpg" width=800><br>
