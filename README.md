@@ -77,17 +77,24 @@ This app creates a hair sylist profile, allows users to browse and search for th
 **Flow Navigation** (Screen to Screen)
 Login Screen
 => Feed
-Registration Screen
+
+User Registration Screen
 => Feed
-Feed
+
+User Feed
+=> Stylist profile or
+=> Detailed view of stylist's post
+
+User Explore
+=> Stylist profile or
+=> Detailed view of stylist post
+
+User Profile
 => Stylist profile
 => Detailed view of stylist post
-Explore
-=> Stylist profile
-=> Detailed view of stylist post
-Profile
-=> Stylist profile
-=> Detailed view of stylist post
+
+Login Screen 
+=> Stylist Profile Page
 
 ## Wireframes
 <img src="https://imgur.com/qA4z8Mg.jpg" width=800><br>
