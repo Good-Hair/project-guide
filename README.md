@@ -36,12 +36,13 @@ This app creates a hair sylist profile, allows users to browse and search for th
   User
 * User creates account { First and Last name, username, password, selection of preferred styles, location, contact }
 * User logs in to account
+* Frst time user is asked to select their preffered styles from randomly chosen photos
 * User is directed immediately to HomePage/Feed can scroll through and view (Like Instagram feed)
 * User can go to Search and Explore page (Like Instgram) to search for specific styles or find something new
 * User can favorite a style or follow a stylist or hashtag
 * When user selects a stylist username they get redirected to stylist profile
 * With clicking a photo a stylist posts of their their username below image will link to their page
-* Every photo of a style/ hashtag will link to stylists who have the style name in their bio and can filter based on location, photos, stylists and reviews(Like Instgram)
+* Every photo of a style/ hashtag will link to stylists who have the style name in their bio and you can filter based on location, photos, stylists and reviews(Like Instgram)on the search page
 * Profile page for each user- user can view saved stylists and styles, and unsave/unfollow
 * Settings (Accesibility, Notification, General, etc.) user can access in right hand corner of profile 
 * Reviews- User can access phone camera to take a photo of hair and leave a written and rated review on stylist page
@@ -88,3 +89,7 @@ Explore
 => Stylist profile
 => Detailed view of stylist post
 
+## Wireframes
+<img src="https://imgur.com/qA4z8Mg" width=800><br>
+<img src="https://imgur.com/VEfv1nG" width=800><br>
+<img src="https://imgur.com/YCyW3cQ" width=800><br>
