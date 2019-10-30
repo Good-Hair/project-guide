@@ -85,7 +85,7 @@ Feed
 Explore
 => Stylist profile
 => Detailed view of stylist post
-* Profile
+Profile
 => Stylist profile
 => Detailed view of stylist post
 
