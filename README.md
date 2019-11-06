@@ -100,3 +100,46 @@ Login Screen
 <img src="https://imgur.com/qA4z8Mg.jpg" width=800><br>
 <img src="https://imgur.com/VEfv1nG.jpg" width=800><br>
 <img src="https://imgur.com/YCyW3cQ.jpg" width=800><br>
+
+## Network Request Outline
+Login Page
+•	(Read/GET) Query all user accounts
+•	(Read/GET) Query all stylist accounts
+•	(Create/POST) Create a new account object
+
+User Account Registration
+•	(Create/POST) Create a new user account object
+
+User profile build (interests)
+•	(Create/POST) Create a new user interests object
+
+User Feed
+•	(Read/GET) Query all posts that interest user
+•	(Read/GET) Query all posts that user searches for
+•	(Create/POST) Create a new like on a post
+•	(Create/POST) Create a new comment on a post
+•	(Delete) Delete existing like
+•	(Delete) Delete existing comment
+
+Stylist Account Registration
+•	(Create/POST) Create a new stylist account object
+•	(Create/POST) Create a new stylist profile object
+
+Stylist profile (user perspective)
+•	(Read/GET) Query all accounts for the selected stylist
+•	(Create/POST) Create a new review object
+
+Stylist profile (stylist perspective)
+•	(Create/POST) Create a new post object
+•	(Update/PUT) Update stylist profile image
+•	(Update/PUT) Update stylist name
+•	(Update/PUT) Update stylist profile image
+•	(Delete) Delete existing post
+
+User profile
+•	(Create/POST) Create a new user profile object
+
+User explorer page
+•	(Read/GET) Query all posts that interest user
+•	(Read/GET) Query all posts that user searches for
+
