@@ -8,7 +8,7 @@ README
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 1. [Models](#Models)
-1. [Network Request Outline](#Network-Req-Outline)
+1. [Network Request Outline](#Network-Request-Outline)
 
 ## Overview
 ### Description
