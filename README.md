@@ -102,20 +102,85 @@ Login Screen
 <img src="https://imgur.com/VEfv1nG.jpg" width=800><br>
 <img src="https://imgur.com/YCyW3cQ.jpg" width=800><br>
 
+## Models
+Post
+----
+Property | Type | Description|
+---------|-------|-----------|
+objectId    |  String	 |   unique id for the comment (default field)|
+author	  |    Pointer to user   |  to User	image/video author
+video	    |    File	    |  video that user posts
+image	    |    File	    |  image/video that user posts
+caption	   |   String	 |   image/vidoe caption by author
+commentsCount | Number	|   number of comments that has been posted to an image
+likesCount	|  Number	  |  number of likes for the post
+createdAt	  |  DateTime	 | date when post is created (default field)
+tags  | Pointer to tags | the tags under a post
+
+Comment
+--------
+Property | Type | Description|
+---------|-------|-----------|
+objectId    |  String	 |   unique id for the user post (default field)|
+author	  |    Pointer to user   |  to user	comment author
+createdAt	  |  DateTime	 | date when post is created (default field)
+comm	   |   String	 |   commennt from author
+
+Like
+--------
+Property | Type | Description|
+---------|-------|-----------|
+objectId    |  String	 |   unique id for the user post (default field)|
+author	  |    Pointer to user   |  to user	like author
+postliked	  |    Pointer to post   |  to user	like author
+createdAt	  |  DateTime	 | date when post is liked
+
+Review
+--------
+Property | Type | Description|
+---------|-------|-----------|
+objectId    |  String	 |   unique id for the user post (default field)|
+authorOfReview	  |    Pointer to user   |  to user	comment author
+reviewedStylist	  |    Pointer to user   |  to user	stylist
+createdAt	  |  DateTime	 | date when post is liked
+
+User
+--------
+Property | Type | Description|
+---------|-------|-----------|
+objectId    |  String	 |   unique id for the user (default field)|
+isStylist	  |  Boolean |  identify if the user is a stylist or "customer"
+email       | String  |   identifier for the user to confirm account
+username    | String  | identifier to log in
+name    | String  | identifier of user
+location    | String  |  location of user for query purposes
+password    | String   | for user login
+image     | File |  image of user
+
+Tags
+--------
+Property | Type | Description|
+---------|-------|-----------|
+objectId  |  String	 |   unique id for the user post (default field)|
+tagWord   | String  |  the tag the stylist uses
+
+Following
+--------
+Property | Type | Description|
+---------|-------|-----------|
+objectId    |  String	 |   unique id for the user post (default field)|
+followedUser	  |    Pointer to user   |  to the user that is being followed
+User	  |    Pointer to user   |  to the user that is following someone
+
+
 ## Network Request Outline
 Login Page
-*	(Read/GET) Query all user accounts
-*	(Read/GET) Query all stylist accounts
-*	(Create/POST) Create a new account object
+*	(Read/GET) Query all users
 
 User Account Registration
-*	(Create/POST) Create a new user account object
-
-User profile build (interests)
-*	(Create/POST) Create a new user interests object
+*	(Create/POST) Create a new user object
 
 User Feed
-*	(Read/GET) Query all posts that interest user
 *	(Read/GET) Query all posts that user searches for
 *	(Create/POST) Create a new like on a post
 *	(Create/POST) Create a new comment on a post
@@ -123,24 +188,26 @@ User Feed
 *	(Delete) Delete existing comment
 
 Stylist Account Registration
-*	(Create/POST) Create a new stylist account object
-*	(Create/POST) Create a new stylist profile object
+*	(Create/POST) Create a new user interests object
 
 Stylist profile (user perspective)
 *	(Read/GET) Query all accounts for the selected stylist
 *	(Create/POST) Create a new review object
+*	(Delete) Delete existing review
 
 Stylist profile (stylist perspective)
 *	(Create/POST) Create a new post object
-*	(Update/PUT) Update stylist profile image
-*	(Update/PUT) Update stylist name
-*	(Update/PUT) Update stylist profile image
+*	(Update/PUT) Update user profile image
+*	(Update/PUT) Update username
+*	(Update/PUT) Update user name
+*	(Update/PUT) Update user location
+*	(Update/PUT) Update user password
+*	(Update/PUT) Update user email
 *	(Delete) Delete existing post
 
 User profile
-*	(Create/POST) Create a new user profile object
-
-User explorer page
-*	(Read/GET) Query all posts that interest user
-*	(Read/GET) Query all posts that user searches for
+*	(Read/GET) Query all accounts for the selected user
+*	(Read/GET) Query all posts that the user liked
+*	(Read/GET) Query all accounts user follows
+*	(Read/GET) Query all tags user uses
 
