@@ -212,7 +212,7 @@ User profile
 *	(Read/GET) Query all accounts user follows
 *	(Read/GET) Query all tags user uses
 
-## 6. Completed User Stories
+## Completed User Stories
 
 
 
