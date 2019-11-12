@@ -214,8 +214,7 @@ User profile
 *	(Read/GET) Query all tags user uses
 
 ## Completed User Stories
-
-
+1. https://github.com/orgs/Good-Hair/projects/1#card-28853743
 
 
 
