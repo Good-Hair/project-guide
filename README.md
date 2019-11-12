@@ -5,11 +5,11 @@ README
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
-1. [Models](#Models)
-1. [Network Request Outline](#Network-Request-Outline)
-
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Models](#Models)
+5. [Network Request Outline](#Network-Request-Outline)
+6. [Completed User Stories](#Completed-Stories)
 ## Overview
 ### Description
 This app creates a hair sylist profile, allows users to browse and search for their desired style/stylist based on skill, location, etc. User can book with a stylist inside the app, and favorite sylists and styles.
@@ -211,4 +211,12 @@ User profile
 *	(Read/GET) Query all posts that the user liked
 *	(Read/GET) Query all accounts user follows
 *	(Read/GET) Query all tags user uses
+
+## 6. Completed User Stories
+
+
+
+
+
+
 
