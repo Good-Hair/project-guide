@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Good Hair</string>
+    <string name="stylist_registration_title">Stylist Registration</string>
+    <string name="stylist_name">Name</string>
+    <string name="stylist_email">Email</string>
+    <string name="stylist_shopName">Shop Name</string>
+    <string name="set_profile_picture">set profile picture</string>
+</resources>
