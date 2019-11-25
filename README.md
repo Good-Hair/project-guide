@@ -215,6 +215,7 @@ User profile
 
 ## Completed User Stories
 1. https://github.com/orgs/Good-Hair/projects/1#card-29188291
+2. https://github.com/orgs/Good-Hair/projects/1#card-28853743
 
 
 
