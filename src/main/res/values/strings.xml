@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Good Hair</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_creation2">UserCreation2</string>
+
+    <string-array name="Styles">
+        <item>Braids</item>
+        <item>Perm</item>
+        <item>Short</item>
+        <item>Natural</item>
+    </string-array>
+    <string name="title_activity_nothing">nothing</string>
+</resources>
