@@ -10,6 +10,7 @@ README
 4. [Models](#Models)
 5. [Network Request Outline](#Network-Request-Outline)
 6. [Completed User Stories](#Completed-User-Stories)
+7. [Build Progress Gifs](#Build-Progress-Gifs)
 
 ## Overview
 ### Description
@@ -216,7 +217,20 @@ User profile
 ## Completed User Stories
 1. https://github.com/orgs/Good-Hair/projects/1#card-29188291
 2. https://github.com/orgs/Good-Hair/projects/1#card-28853743
+3. https://github.com/orgs/Good-Hair/projects/1#card-29669442
+4. https://github.com/orgs/Good-Hair/projects/1#card-29720348
+5. https://github.com/orgs/Good-Hair/projects/1#card-29720275
+6. https://github.com/orgs/Good-Hair/projects/1#card-30299134
+7. https://github.com/orgs/Good-Hair/projects/1#card-28856209
+8. https://github.com/orgs/Good-Hair/projects/1#card-28856204
+9. https://github.com/orgs/Good-Hair/projects/1#card-28855189
+10. https://github.com/orgs/Good-Hair/projects/1#card-28853743
+11. https://github.com/orgs/Good-Hair/projects/1#card-28854450
+12. https://github.com/orgs/Good-Hair/projects/1#card-30085127
+13. https://github.com/orgs/Good-Hair/projects/1#card-29669595
+14. https://github.com/orgs/Good-Hair/projects/1#card-28854232
 
+## Build Progress Gifs
 
 
 
