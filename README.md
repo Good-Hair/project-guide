@@ -232,6 +232,6 @@ User profile
 
 ## Build Progress Gifs
 
-https://giphy.com/gifs/JNxlnzaZgs13WE4XnR/html5
+https://media.giphy.com/media/JNxlnzaZgs13WE4XnR/giphy.gif
 
 
