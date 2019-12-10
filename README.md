@@ -234,7 +234,9 @@ User profile
 
 POST development
 https://media.giphy.com/media/JNxlnzaZgs13WE4XnR/giphy.gif
+
 Create Stylist Account XML
 https://media.giphy.com/media/VIonBqYLGViJESOR0I/giphy.gif
+https://media.giphy.com/media/fvwZ72ry3Ak91bMsja/giphy.gif
 
 
