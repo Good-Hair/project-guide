@@ -232,6 +232,9 @@ User profile
 
 ## Build Progress Gifs
 
+POST development
 https://media.giphy.com/media/JNxlnzaZgs13WE4XnR/giphy.gif
+Create Stylist Account XML
+https://media.giphy.com/media/VIonBqYLGViJESOR0I/giphy.gif
 
 
