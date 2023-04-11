@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: project-guide
+  description: 'Project in college'
+  annotations:
+    github.com/project-slug: 'Good-Hair/project-guide'
+  tags:
+    - java
+  links:
+    - url: https://github.com/Good-Hair/project-guide/issues
+      title: Backlog
+      icon: warning
+spec:
+  type: website
+  lifecycle: production
+  owner: 'Good-Hair'
